@@ -87,8 +87,36 @@
         </div>
     </section>
 
+    <!-- About Me -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="relative">
+                <div class="aspect-square bg-slate-200 rounded-3xl overflow-hidden shadow-xl">
+                    <!-- Replace with actual photo path later -->
+                    <img src="https://via.placeholder.com/600" alt="Gabriel & Agustin" class="w-full h-full object-cover">
+                </div>
+                <div class="absolute -bottom-6 -right-6 bg-blue-600 text-white p-6 rounded-2xl shadow-lg hidden md:block">
+                    <p class="font-bold text-lg">Basados en Almagro</p>
+                    <p class="text-sm opacity-90">CABA, Argentina</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-6">Hola, somos <span class="text-blue-600">Gabriel Gordillo y Agustin Muñoz</span>, el motor detrás de Foundly</h2>
+                <p class="text-slate-600 text-lg mb-6 leading-relaxed">
+                    Ayudamos a emprendedores y dueños de negocios locales en Almagro y alrededores a profesionalizar su presencia online. Creemos que no necesitás una web compleja ni costosa, sino una herramienta que funcione: que te traiga clientes y te ahorre tiempo.
+                </p>
+                <p class="text-slate-600 text-lg mb-8 leading-relaxed">
+                    Sin vueltas, sin lenguaje técnico complicado, solo resultados reales para gente que quiere hacer crecer su negocio.
+                </p>
+                <a href="https://wa.me/5491160203617" class="inline-flex items-center gap-2 text-blue-600 font-bold hover:text-blue-700 transition-colors">
+                    Hablemos por WhatsApp <span class="text-xl">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Cómo trabajamos -->
-    <section class="py-20 px-6 bg-white border-y border-slate-100">
+    <section class="py-20 px-6 bg-slate-50 border-y border-slate-100">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Cómo <span class="text-blue-600">trabajamos</span></h2>
@@ -118,40 +146,85 @@
             </div>
         </div>
     </section>
-    <section class="py-20 px-6 max-w-6xl mx-auto">
-        <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Esto no es un ejemplo, es un <span class="text-emerald-600">cliente real</span></h2>
-            <p class="text-slate-600">Así quedó la web de un negocio que ya está trabajando con Foundly</p>
-        </div>
-        <div class="bg-white rounded-3xl border-2 border-emerald-500 shadow-lg p-8 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-            <div>
-                <span class="inline-block bg-emerald-100 text-emerald-700 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Cliente Real</span>
-                <h3 class="text-2xl md:text-3xl font-extrabold mb-2">Reparación Heladeras y Lavarropas — Ezequiel</h3>
-                <p class="text-slate-500 mb-4">Servicio de reparación de electrodomésticos · Monte Chingolo, Buenos Aires</p>
-                <div class="flex items-center gap-2 mb-6">
-                    <span class="text-yellow-500 text-lg">★★★★★</span>
-                    <span class="text-slate-700 font-semibold text-sm">5.0 · 52 reseñas en Google</span>
-                </div>
-                <blockquote class="border-l-4 border-emerald-500 pl-4 italic text-slate-600 mb-6">
-                    "Súper recomendable, muy buena atención y rapidez."
-                </blockquote>
-                <div class="flex flex-col sm:flex-row gap-3">
-                    <a href="https://reparacionesezequiel.com/" target="_blank" rel="noopener" class="bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold text-center hover:bg-slate-800 transition-colors">Ver su web →</a>
-                    <a href="https://wa.me/5491160203617?text=Vi%20la%20web%20de%20Reparaciones%20Ezequiel%20y%20quiero%20algo%20as%C3%AD%20para%20mi%20negocio" class="bg-emerald-600 text-white px-6 py-3 rounded-xl font-semibold text-center hover:bg-emerald-700 transition-colors">Quiero algo así →</a>
+
+    <!-- Pricing Section -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Inversión clara, <span class="text-blue-600">sin sorpresas</span></h2>
+            <p class="text-slate-600 mb-12 text-lg">Mi objetivo es que tu web se pague sola atrayendo nuevos clientes. Por eso, trabajo con precios transparentes.</p>
+            <div class="bg-white rounded-3xl border-2 border-blue-600 shadow-xl overflow-hidden max-w-md mx-auto">
+                <div class="bg-blue-600 py-4 px-6 text-white font-bold text-center uppercase tracking-widest text-sm">Plan Recomendado</div>
+                <div class="p-10">
+                    <h3 class="text-2xl font-extrabold mb-2">Web Profesional</h3>
+                    <div class="text-4xl font-extrabold text-slate-900 mb-6">Desde $<span class="text-blue-600">100.000</span></div>
+                    <ul class="text-left space-y-4 mb-10">
+                        <li class="flex items-center gap-3 text-slate-600"><span class="text-green-500 text-xl">✓</span> Diseño optimizado para Google</li>
+                        <li class="flex items-center gap-3 text-slate-600"><span class="text-green-500 text-xl">✓</span> Botón de WhatsApp directo</li>
+                        <li class="flex items-center gap-3 text-slate-600"><span class="text-green-500 text-xl">✓</span> 100% Adaptable a celulares</li>
+                        <li class="flex items-center gap-3 text-slate-600"><span class="text-green-500 text-xl">✓</span> Entrega en pocos días</li>
+                    </ul>
+                    <a href="https://wa.me/5491160203617" class="block w-full bg-blue-600 text-white py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-lg shadow-blue-200">
+                        Consultar disponibilidad
+                    </a>
                 </div>
             </div>
-            <div class="bg-slate-50 rounded-2xl border border-slate-200 p-6">
-                <p class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">Lo que dicen sus clientes en Google</p>
-                <div class="space-y-4 text-sm">
-                    <div class="bg-white p-4 rounded-xl border border-slate-100">
-                        <p class="text-slate-600 mb-2">Cliente destacó que fue amable y resolutivo: consiguió el repuesto al día siguiente y solucionó el problema en el momento.</p>
-                        <p class="text-slate-400 text-xs font-semibold">— Juan Manuel R., Local Guide</p>
+        </div>
+    </section>
+
+    <!-- Case Studies Gallery -->
+    <section class="py-20 px-6 bg-slate-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Proyectos que <span class="text-blue-600">están funcionando</span></h2>
+                <p class="text-slate-600">No son demos, son negocios reales consiguiendo clientes</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Case Study 1: Ezequiel -->
+                <div class="bg-white rounded-3xl border border-slate-200 overflow-hidden group hover:border-blue-400 transition-all shadow-sm">
+                    <div class="h-48 bg-slate-200 relative">
+                        <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=600&q=80" alt="Reparaciones Ezequiel" class="w-full h-full object-cover">
+                        <div class="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-blue-600 shadow-sm">Resultado Real</div>
                     </div>
-                    <div class="bg-white p-4 rounded-xl border border-slate-100">
-                        <p class="text-slate-600 mb-2">Cumplió con el día y horario acordado, algo que dos técnicos anteriores no habían logrado, y reparó el lavasecarropas.</p>
-                        <p class="text-slate-400 text-xs font-semibold">— Natalia V.</p>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Reparaciones Ezequiel</h3>
+                        <p class="text-slate-500 text-sm mb-4">Servicio técnico de electrodomésticos en Monte Chingolo.</p>
+                        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100 mb-6">
+                            <p class="text-xs font-bold text-slate-400 uppercase mb-1">El Resultado</p>
+                            <p class="text-sm text-slate-700 font-medium">Aumento de consultas directas por WhatsApp y mejores reseñas en Google.</p>
+                        </div>
+                        <a href="https://reparacionesezequiel.com/" target="_blank" rel="noopener" class="block text-center py-3 rounded-xl font-bold text-sm bg-slate-900 text-white hover:bg-blue-600 transition-colors">Ver Sitio Web →</a>
                     </div>
-                </div}
+                </div>
+                <!-- Case Study 2 (Placeholder) -->
+                <div class="bg-white rounded-3xl border border-slate-200 overflow-hidden group hover:border-blue-400 transition-all shadow-sm opacity-60">
+                    <div class="h-48 bg-slate-200 relative">
+                        <div class="w-full h-full flex items-center justify-center text-slate-400 font-medium">Próximo Caso de Éxito</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Próximo Cliente</h3>
+                        <p class="text-slate-500 text-sm mb-4">Tu negocio podría estar aquí ayudando a otros a confiar.</p>
+                        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100 mb-6">
+                            <p class="text-xs font-bold text-slate-400 uppercase mb-1">El Resultado</p>
+                            <p class="text-sm text-slate-400 italic">Esperando resultados reales...</p>
+                        </div>
+                        <div class="block text-center py-3 rounded-xl font-bold text-sm bg-slate-200 text-slate-500 cursor-not-allowed">Próximamente</div>
+                    </div>
+                </div>
+                <!-- Case Study 3 (Placeholder) -->
+                <div class="bg-white rounded-3xl border border-slate-200 overflow-hidden group hover:border-blue-400 transition-all shadow-sm opacity-60">
+                    <div class="h-48 bg-slate-200 relative">
+                        <div class="w-full h-full flex items-center justify-center text-slate-400 font-medium">Próximo Caso de Éxito</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Próximo Cliente</h3>
+                        <p class="text-slate-500 text-sm mb-4">Tus servicios destacados y optimizados para Google.</p>
+                        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100 mb-6">
+                            <p class="text-xs font-bold text-slate-400 uppercase mb-1">El Resultado</p>
+                            <p class="text-sm text-slate-400 italic">Esperando resultados reales...</p>
+                        </div>
+                        <div class="block text-center py-3 rounded-xl font-bold text-sm bg-slate-200 text-slate-500 cursor-not-allowed">Próximamente</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -174,7 +247,8 @@
                     </div>
                     <div class="p-8 text-center">
                         <h3 class="font-bold text-2xl mb-3">Barberías & Peluquerías</h3>
-                        <p class="text-slate-500 mb-6">Enfoque en galería de cortes, precios claros y reserva rápida de turnos.</p>
+                        <p class="text-slate-500 mb-2">Enfoque en galería de cortes, precios claros y reserva rápida de turnos.</p>
+                        <p class="text-blue-600 font-bold text-sm mb-6">✨ Ideal para: Atraer clientes jóvenes y organizar agenda.</p>
                         <a href="demos/barberia.html" class="block w-full bg-slate-900 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition-colors">Ver Demo</a>
                     </div>
                 </div>
@@ -188,7 +262,8 @@
                     </div>
                     <div class="p-8 text-center">
                         <h3 class="font-bold text-2xl mb-3">Estéticas & Spas</h3>
-                        <p class="text-slate-500 mb-6">Diseño sofisticado, catálogo de servicios y sección de testimonios reales.</p>
+                        <p class="text-slate-500 mb-2">Diseño sofisticado, catálogo de servicios y sección de testimonios reales.</p>
+                        <p class="text-blue-600 font-bold text-sm mb-6">✨ Ideal para: Transmitir confianza y lujo accesible.</p>
                         <a href="demos/estetica.html" class="block w-full bg-slate-900 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition-colors">Ver Demo</a>
                     </div>
                 </div>
@@ -202,7 +277,8 @@
                     </div>
                     <div class="p-8 text-center">
                         <h3 class="font-bold text-2xl mb-3">Talleres & Gomerías</h3>
-                        <p class="text-slate-500 mb-6">Enfoque en urgencias, ubicación exacta en Maps y servicios técnicos.</p>
+                        <p class="text-slate-500 mb-2">Enfoque en urgencias, ubicación exacta en Maps y servicios técnicos.</p>
+                        <p class="text-blue-600 font-bold text-sm mb-6">✨ Ideal para: Clientes que necesitan solución inmediata.</p>
                         <a href="demos/taller.html" class="block w-full bg-slate-900 text-white py-3 rounded-xl font-semibold hover:bg-blue-600 transition-colors">Ver Demo</a>
                     </div>
                 </div>
@@ -231,7 +307,7 @@
         </div>
     </section>
 
-    <!-- CTA Final -->
+    <!-- Final CTA -->
     <footer class="py-24 px-6 bg-slate-900 text-white text-center relative overflow-hidden">
         <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
             <div class="absolute top-[-10%] left-[-10%] w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>
@@ -247,6 +323,34 @@
             <a href="https://wa.me/5491160203617" class="bg-blue-600 text-white px-10 py-5 rounded-full font-bold text-xl shadow-xl shadow-blue-900/20 hover:bg-blue-500 transition-all transform hover:scale-105 inline-block">
                 ¡Quiero mi página web ahora!
             </a>
+        </div>
+    </footer>
+
+    <!-- Expanded Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 px-6 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+                <div class="flex items-center gap-2 mb-6">
+                    <img src="favicon-32x32.png" alt="Foundly Logo" class="w-6 h-6 brightness-0 invert">
+                    <span class="text-xl font-extrabold tracking-tight text-white">Foundly</span>
+                </div>
+                <p class="text-sm leading-relaxed">Creamos herramientas digitales que convierten visitas en clientes. Sin complicaciones, enfocadas en resultados locales.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6">Enlaces</h4>
+                <ul class="space-y-4 text-sm">
+                    <li><a href="#demos" class="hover:text-white transition-colors">Ejemplos de Webs</a></li>
+                    <li><a href="#faq" class="hover:text-white transition-colors">Preguntas Frecuentes</a></li>
+                    <li><a href="https://wa.me/5491160203617" class="hover:text-white transition-colors">Contacto Directo</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6">Zona de Servicio</h4>
+                <p class="text-sm leading-relaxed">📍 Almagro, CABA<br>📍 Gran Buenos Aires<br>📍 Todo Argentina (remoto)</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-slate-800 text-center text-xs">
+            © 2026 Foundly. Todos los derechos reservados.
         </div>
     </footer>
 
